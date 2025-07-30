@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 Stickerly
 
-## Getting Started
+Transform any image into a beautiful sticker with custom borders and effects! Part of the [Scatter](https://scatter.moeezs.com) weekly app project.
 
-First, run the development server:
+## ✨ Features
 
+- **Simple Upload**: Drag & drop or click to upload PNG, JPG, or JPEG images
+- **Instant Sticker Effect**: Automatic white border application with sticker-like appearance
+- **Full Customization**:
+  - Border color picker with predefined palette
+  - Adjustable border thickness (0-20px)
+  - Background fill option with color selection
+  - Real-time preview
+- **High Quality Export**: Download as PNG with transparency
+- **Responsive Design**: Works beautifully on desktop and mobile
+- **Smooth Animations**: Powered by Framer Motion
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+```bash
+git clone <repository-url>
+cd stickerly
+```
+
+2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. **Run the development server**
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Open your browser**
+Navigate to [http://localhost:3000](http://localhost:3000) to see Stickerly in action!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Image Processing**: HTML5 Canvas API
 
-## Learn More
+## 🎯 How It Works
 
-To learn more about Next.js, take a look at the following resources:
+1. **Upload**: Drop your image or click to browse
+2. **Preview**: See your image with an instant sticker border
+3. **Customize**: Adjust colors, thickness, and background
+4. **Download**: Get your high-quality sticker as PNG
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌟 About Scatter
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Stickerly is part of the Scatter project - a weekly challenge where we build and ship creative, useful apps every single week! From productivity tools to entertainment apps to creative utilities like this one.
 
-## Deploy on Vercel
+**Follow the journey**: [scatter.moeezs.com](https://scatter.moeezs.com)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to contribute to make Stickerly even better! Whether it's bug fixes, new features, or UI improvements - all contributions are welcome.
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+---
+
+*Built with ❤️ by [moeez](https://scatter.moeezs.com) as part of the Scatter weekly app project*
